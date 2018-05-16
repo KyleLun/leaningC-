@@ -16,7 +16,7 @@ int main() {
 	c.push_back(9);
 	c.push_back(12);
 
-	cout << "ÅÅĞòÇ°: " << endl;
+	cout << "Before sorting: " << endl;
 	for (c_iter = c.begin(); c_iter != c.end(); c_iter ++) {
 		cout << *c_iter << " ";
 	}
@@ -24,7 +24,7 @@ int main() {
 
 	c.sort();
 
-	cout << "ÅÅĞòºó:" << endl;
+	cout << "After sorting:" << endl;
 	for (c_iter = c.begin(); c_iter != c.end(); c_iter++) {
 		cout << *c_iter << " ";
 	}
@@ -32,7 +32,7 @@ int main() {
 
 	c.sort(greater<int>());
 
-	cout << "ÅÅĞòºó:" << endl;
+	cout << "After sorting:" << endl;
 	for (c_iter = c.begin(); c_iter != c.end(); c_iter++) {
 		cout << *c_iter << " ";
 	}
